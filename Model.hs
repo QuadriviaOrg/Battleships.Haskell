@@ -1,4 +1,3 @@
-main = print "OK"
 data Orient = Horiz | Vert deriving Eq
 data SqVal = Empty|Miss|Hit
 data Loc = Loc {col::Int, row:: Int} deriving (Show)
